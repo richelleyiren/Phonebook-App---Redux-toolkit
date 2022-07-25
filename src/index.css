@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',
+        sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.heads {
+    background-color:black;
+    height: 8vh;
+    margin-bottom: 3em;
+    padding: 1.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heads h2 {
+    color: white;
+    font-family: 'Permanent Marker',
+        cursive;
+}
+
+.heads li {
+    list-style: none;
+}
+
+.heads a {
+    text-decoration: none;
+    color: white;
+}
+
+.heads li {
+    display: inline-block;
+    margin: 0 2em;
+
+}
+
+.card-container {
+    height: 30em;
+    width: 40em;
+    background-color: palevioletred;
+    margin: auto;
+    margin-top: 4em;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.472) 15px -4px 22px;
+
+}
+
+.main-card {
+    padding: 3em 7em;
+    /* box-shadow: rgba(0, 0, 0, 0.472) 5px -6px 15px; */
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-card h2 {
+    margin-left: 4em;
+    margin-bottom: 0.4em;
+    color: white;
+}
+
+label {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 0.7em;
+    font-size: 1.1em;
+    color: white;
+}
+
+input {
+    height: 3em;
+    width: 100%;
+    padding: 0.5em 1.5em;
+    background-color: white;
+    border-radius: 0.5em;
+    border: none;
+    caret-color: black;
+    color: black;
+    font-size: 1em;
+
+}
+
+input:focus {
+    outline: none;
+
+}
+
+.main-card button {
+    margin-left: 18.5em;
+    margin-top: 2em;
+    width: 40%;
+    border-radius: 0.5em;
+    padding: 1em 0;
+    background-color: #0bc5a0;
+    color: white;
+    border: none;
+    font-size: 0.8em;
+    transition: scale 0.5s;
+}
+
+.main-card button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    scale: 1.1;
+
+
+}
+
+.display-container {
+    min-height: 40em;
+    width: 90vw;
+    background-color: honeydew;
+    margin: auto;
+    margin-top: 5em;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.472) 15px -4px 22px;
+    
+   
+    
+
+}
+
+.display-inside {
+    padding: 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+
+.contact-card {
+    min-height: 10em;
+    width: 40%;
+    background-color: white;
+    border-radius: 2em;
+    border: 2px tomato solid;
+    margin: 2em;
+
+
+}
+
+.contents {
+    
+    padding: 0 2em;
+}
+
+.contents h3 {
+    margin-top: 1.5em;
+
+}
+
+hr {
+    margin-top: 0.5em;
+    color: tomato;
+}
+
+.buttons {
+    margin-left: 12em;
+}
+
+.buttons button {
+    padding: 1em;
+    margin: 1.4em 0.4em 2em;
+    color: white;
+    border: none;
+    border-radius: 0.6em;
+
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.delete {
+    background-color: red;
+
+}
+
+.delete:hover {
+    cursor: pointer;
+
+}
+
+.edit {
+    background-color: green;
+}
+
+.edit:hover {
+    background-color: white;
+    color: green;
+    border: solid black 1px;
+}
+
+
+.edits {
+    color: white;
+    border: none;
+    border-radius: 0.6em;
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+.cancel {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0.6em;
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    background-color: white;
+    color: black;
+}
